@@ -13,17 +13,18 @@ class ViewController: UIViewController, UIWebViewDelegate {
     
     @IBOutlet weak var ww: UIWebView!
     
-    var weburl:String = "http://schedule.sdsu.edu.ge/scheduleappios/"
+    var weburl:String = "http://schedule.sdsu.edu.ge/index.php/ios/"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        ww.scrollView.bounces = false
+        
         let url: NSURL = NSURL(string: weburl)!
         let requestURL: NSURLRequest = NSURLRequest(url: url as URL)
         ww.loadRequest(requestURL as URLRequest)
         
-//        UIWebView.loadRequest(webView)(NSURLRequest(url: NSURL(string: "http://facebook.com/")! as URL) as URLRequest)
     }
 
     override func didReceiveMemoryWarning() {
