@@ -8,11 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIWebViewDelegate {
 
+    
+    @IBOutlet weak var ww: UIWebView!
+    
+    var weburl:String = "http://schedule.sdsu.edu.ge/scheduleappios/"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let url: NSURL = NSURL(string: weburl)!
+        let requestURL: NSURLRequest = NSURLRequest(url: url as URL)
+        ww.loadRequest(requestURL as URLRequest)
+        
+//        UIWebView.loadRequest(webView)(NSURLRequest(url: NSURL(string: "http://facebook.com/")! as URL) as URLRequest)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +31,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    public func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool
+    {
+//        if request.url?.query?.range(")
+        return true;
+    }
 
 }
 
