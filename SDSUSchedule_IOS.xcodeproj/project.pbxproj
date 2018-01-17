@@ -17,9 +17,9 @@
 		C70A6D22200A15B30021090F /* SDSUSchedule_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A6D21200A15B30021090F /* SDSUSchedule_IOSTests.swift */; };
 		C70A6D2D200A15B30021090F /* SDSUSchedule_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A6D2C200A15B30021090F /* SDSUSchedule_IOSUITests.swift */; };
 		CF31C742E58B4E3CC57E23A4 /* Pods_SDSUSchedule_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0E6C6041156E9E6624CC4B /* Pods_SDSUSchedule_IOS.framework */; };
-		EB43E2AF200E3B0F00162BF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB43E2AE200E3B0F00162BF8 /* GoogleService-Info.plist */; };
-		EB43E2B0200E3B0F00162BF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB43E2AE200E3B0F00162BF8 /* GoogleService-Info.plist */; };
-		EB43E2B1200E3B0F00162BF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB43E2AE200E3B0F00162BF8 /* GoogleService-Info.plist */; };
+		EB340591200F6198001A713E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB340590200F6197001A713E /* GoogleService-Info.plist */; };
+		EB340592200F6198001A713E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB340590200F6197001A713E /* GoogleService-Info.plist */; };
+		EB340593200F6198001A713E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB340590200F6197001A713E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		C70A6D2E200A15B30021090F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D12D566DEF263DE5DD652A2C /* Pods-SDSUSchedule_IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDSUSchedule_IOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDSUSchedule_IOSTests/Pods-SDSUSchedule_IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D138ABFB4210D318A41F6D20 /* Pods_SDSUSchedule_IOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDSUSchedule_IOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB340590200F6197001A713E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EB43E2AB200E36A800162BF8 /* SDSUSchedule_IOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SDSUSchedule_IOS.entitlements; sourceTree = "<group>"; };
-		EB43E2AE200E3B0F00162BF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Volumes/LEVAN/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F6296DF0ABB3497A33034877 /* Pods_SDSUSchedule_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDSUSchedule_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F630A44E42D5E8C075DF31C9 /* Pods-SDSUSchedule_IOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDSUSchedule_IOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDSUSchedule_IOSUITests/Pods-SDSUSchedule_IOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FC0E6C6041156E9E6624CC4B /* Pods_SDSUSchedule_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDSUSchedule_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,7 +149,7 @@
 				C70A6D13200A15B30021090F /* Assets.xcassets */,
 				C70A6D15200A15B30021090F /* LaunchScreen.storyboard */,
 				C70A6D18200A15B30021090F /* Info.plist */,
-				EB43E2AE200E3B0F00162BF8 /* GoogleService-Info.plist */,
+				EB340590200F6197001A713E /* GoogleService-Info.plist */,
 			);
 			path = SDSUSchedule_IOS;
 			sourceTree = "<group>";
@@ -297,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C70A6D17200A15B30021090F /* LaunchScreen.storyboard in Resources */,
-				EB43E2AF200E3B0F00162BF8 /* GoogleService-Info.plist in Resources */,
+				EB340591200F6198001A713E /* GoogleService-Info.plist in Resources */,
 				C70A6D14200A15B30021090F /* Assets.xcassets in Resources */,
 				C70A6D12200A15B30021090F /* Main.storyboard in Resources */,
 			);
@@ -307,7 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB43E2B0200E3B0F00162BF8 /* GoogleService-Info.plist in Resources */,
+				EB340592200F6198001A713E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB43E2B1200E3B0F00162BF8 /* GoogleService-Info.plist in Resources */,
+				EB340593200F6198001A713E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
