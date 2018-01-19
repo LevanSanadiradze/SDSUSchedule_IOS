@@ -8,6 +8,7 @@ target 'SDSUSchedule_IOS' do
   # Pods for SDSUSchedule_IOS
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
+  pod 'FirebaseInstanceID', '2.0.0'
 
   target 'SDSUSchedule_IOSTests' do
     inherit! :search_paths
