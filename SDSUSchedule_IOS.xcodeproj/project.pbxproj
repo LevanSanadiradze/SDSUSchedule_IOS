@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		305ED358201214B500AE36B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 305ED357201214B500AE36B4 /* GoogleService-Info.plist */; };
-		305ED359201214B500AE36B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 305ED357201214B500AE36B4 /* GoogleService-Info.plist */; };
-		305ED35A201214B500AE36B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 305ED357201214B500AE36B4 /* GoogleService-Info.plist */; };
+		30ADC5D5201236D000C78FB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30ADC5D4201236D000C78FB5 /* GoogleService-Info.plist */; };
+		30ADC5D6201236D000C78FB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30ADC5D4201236D000C78FB5 /* GoogleService-Info.plist */; };
+		30ADC5D7201236D000C78FB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30ADC5D4201236D000C78FB5 /* GoogleService-Info.plist */; };
 		52D14FDEB5D26FFF2CF0FE8B /* Pods_SDSUSchedule_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D138ABFB4210D318A41F6D20 /* Pods_SDSUSchedule_IOSTests.framework */; };
 		5F6B46B72DE264A12D8ABFE4 /* Pods_SDSUSchedule_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6296DF0ABB3497A33034877 /* Pods_SDSUSchedule_IOSUITests.framework */; };
 		C70A6D0D200A15B30021090F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A6D0C200A15B30021090F /* AppDelegate.swift */; };
@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		305ED357201214B500AE36B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		30ADC5D4201236D000C78FB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4A4DFF15AFDDD76BAA986E28 /* Pods-SDSUSchedule_IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDSUSchedule_IOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDSUSchedule_IOSUITests/Pods-SDSUSchedule_IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B7B163E71350EF18DFDF044 /* Pods-SDSUSchedule_IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDSUSchedule_IOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDSUSchedule_IOSTests/Pods-SDSUSchedule_IOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		979448811960C5FB4E3738E1 /* Pods-SDSUSchedule_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDSUSchedule_IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDSUSchedule_IOS/Pods-SDSUSchedule_IOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 				C70A6D13200A15B30021090F /* Assets.xcassets */,
 				C70A6D15200A15B30021090F /* LaunchScreen.storyboard */,
 				C70A6D18200A15B30021090F /* Info.plist */,
-				305ED357201214B500AE36B4 /* GoogleService-Info.plist */,
+				30ADC5D4201236D000C78FB5 /* GoogleService-Info.plist */,
 			);
 			path = SDSUSchedule_IOS;
 			sourceTree = "<group>";
@@ -297,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C70A6D17200A15B30021090F /* LaunchScreen.storyboard in Resources */,
-				305ED358201214B500AE36B4 /* GoogleService-Info.plist in Resources */,
+				30ADC5D5201236D000C78FB5 /* GoogleService-Info.plist in Resources */,
 				C70A6D14200A15B30021090F /* Assets.xcassets in Resources */,
 				C70A6D12200A15B30021090F /* Main.storyboard in Resources */,
 			);
@@ -307,7 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				305ED359201214B500AE36B4 /* GoogleService-Info.plist in Resources */,
+				30ADC5D6201236D000C78FB5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				305ED35A201214B500AE36B4 /* GoogleService-Info.plist in Resources */,
+				30ADC5D7201236D000C78FB5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,7 +656,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sySTEM.sdsuschedule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -673,7 +673,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sySTEM.sdsuschedule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

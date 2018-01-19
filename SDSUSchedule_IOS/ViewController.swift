@@ -23,8 +23,8 @@ class ViewController: UIViewController, UIWebViewDelegate {
         
         let url: NSURL = NSURL(string: weburl)!
         let requestURL: NSURLRequest = NSURLRequest(url: url as URL)
+
         ww.loadRequest(requestURL as URLRequest)
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,9 +34,9 @@ class ViewController: UIViewController, UIWebViewDelegate {
 
     public func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool
     {
-//        if request.url?.query?.range(")
         return true;
     }
+    
 
 }
 
