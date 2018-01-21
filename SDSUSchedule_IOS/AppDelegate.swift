@@ -55,8 +55,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         completionHandler([.alert, .badge, .sound])
     }
     
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        Messaging.messaging().subscribe(toTopic: "/topics/administration")
+//    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+//        Messaging.messaging().subscribe(toTopic: "/topics/administration")
+//    }
+    
+    public func firebaseSubscribeTopic(topic: String)
+    {
+        Messaging.messaging().subscribe(toTopic: topic)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
